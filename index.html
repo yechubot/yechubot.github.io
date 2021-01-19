@@ -19,7 +19,7 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
-    <header>
+    <header class="sticky">
         <div id="mobile-menu-close">
             <span>닫기</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
@@ -39,15 +39,18 @@
             <li>
                 <a href="#skills">보유기술</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#contact">Contact</a>
-            </li>
+            </li> -->
         </ul>
     </header>
     <!-- End header -->
 
     <div id="lead">
         <div id="lead-content">
+            <div class="profile">
+
+            </div>
             <h1>Yeeun Kim</h1>
             <h2></h2>
             <a href="#" class="btn-rounded-white">이력서 다운로드</a>
@@ -72,7 +75,8 @@
                     <h2 class="heading"> 소개글 </h2>
                 </div>
                 <div class="col-md-8">
-                    <p>짧은 소개글 작성 </div>
+                    <p>짧은 소개글 작성
+                </div>
             </div>
         </div>
     </div>
@@ -96,22 +100,22 @@
                 <h3>Pantos USA</h3>
                 <h4>해상 오퍼레이션 인턴</h4>
                 <p>
-                    <li>미국에서 아시아로 이동하는 곡물 및 철제 부품 수출을 위한 해상 컨테이너 예약 및 트래킹</li> 
-                <li> D/O(Delivery Order) 작업 및 발행</li>   
-              <li>Gavilon, Louis Dreyfus, CHS와 같은 미국 주요 고객사들과의 커뮤니케이션</li>                  
-                 </p>
+                    <li>미국에서 아시아로 이동하는 곡물 및 철제 부품 수출을 위한 해상 컨테이너 예약 및 트래킹</li>
+                    <li> D/O(Delivery Order) 작업 및 발행</li>
+                    <li>Gavilon, Louis Dreyfus, CHS와 같은 미국 주요 고객사들과의 커뮤니케이션</li>
+                </p>
             </div>
 
             <div data-date="2018.05 - 2018.10">
                 <h3>폴리큐브</h3>
                 <h4>콘텐츠 팀 사원</h4>
                 <p>
-                   <li>영어 및 한국어로 삼성 모바일 테마명과 설명 작성</li> 
-               
-                   <li> 해외 및 국내 고객의 피드백 정리와 대응</li> 
-               
-                   <li>SNS를 통한 모바일 테마/게임 마케팅</li>
-                
+                    <li>영어 및 한국어로 삼성 모바일 테마명과 설명 작성</li>
+
+                    <li> 해외 및 국내 고객의 피드백 정리와 대응</li>
+
+                    <li>SNS를 통한 모바일 테마/게임 마케팅</li>
+
                 </p>
             </div>
 
@@ -119,10 +123,10 @@
                 <h3>국립산림과학원</h3>
                 <h4>연구보조</h4>
                 <p>
-                    <li>영어 논문 초록 및 연구자료를 위한 영어 자료번역</li> 
-               
+                    <li>영어 논문 초록 및 연구자료를 위한 영어 자료번역</li>
+
                     <li>연구자료와 실험 데이터 관리 및 검토</li>
-                
+
                 </p>
             </div>
         </div>
@@ -146,7 +150,7 @@
             <span class="education-date">2015.09 - 2016.08</span>
             <h4>교육학부</h4>
             <p>
-               교환학생
+                교환학생
             </p>
         </div>
         <!-- End .education-block -->
@@ -159,17 +163,19 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/bookslog.png" width="300"/>
+                        <img src="images/bookslog.png" width="300" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>안드로이드 앱 "북스로그"</h3>
                         <p>
-                            책 만을 기록하고 관리할 수 있는 앱은 없을까? 
+                            책 만을 기록하고 관리할 수 있는 앱은 없을까?
                             책을 관리하고 얼만큼 읽었는지 간단하게 확인할 수 있다.
                             눈이 편안한 심플한 UI 구현과, 책 검색 기능, 베스트 셀러 페이지도 제공한다.
                         </p>
-                        <a href="https://docs.google.com/presentation/d/1DJAxTLkHyTWRAfWGKEL0iKF_RcKMuNPj-0XlJqHjEW8/edit?usp=sharing">프로젝트 보기 </a>
+                        <a
+                            href="https://docs.google.com/presentation/d/1DJAxTLkHyTWRAfWGKEL0iKF_RcKMuNPj-0XlJqHjEW8/edit?usp=sharing">프로젝트
+                            보기 </a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -179,15 +185,31 @@
                     <div class="project-image">
                         <img src="images/xmas.png" width="300" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>CSS만을 이용한 웹 화면 구현</h3>
                         <p>
-                        자바스크립트나 이미지 없이 CSS와 HTML만으로 조명, 선물을 구현했다.
-                        마우스를 갖다대어 서프라이즈 선물을 확인해보자.
-                        
+                            자바스크립트나 이미지 없이 CSS와 HTML만으로 조명, 선물을 구현했다.
+                            마우스를 갖다대어 서프라이즈 선물을 확인해보자.
+
                         </p>
                         <a href="https://vimeo.com/493023371">프로젝트 보기 </a>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/steak.png" width="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>JSP, MySQL Workbench를 이용한 웹 구현 </h3>
+                        <p>
+                            JSP,MySQL Workben, Java를 이용하여 맛있는 스테이크 하우스 레스토랑을 홈페이지를 구현해보았다.
+                            예약추가, 중복예약 불가, 예약확인등이 가능하도록 DB가 구성되어 있으며,
+                            방문후기를 읽고 쓸 수도 있다. 
+                        </p>
+                        <a href=" https://docs.google.com/presentation/d/1LmAgmSb-uJPNrkm0MV4MkohgTFQQgctQvO63xvZ8fqY/edit?usp=sharing
+                   ">프로젝트 보기 </a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -216,7 +238,7 @@
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
+    <!-- <div id="contact">
         <h2>Contact</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
@@ -227,7 +249,7 @@
             </form>
         </div>
         <!-- End #contact-form -->
-    </div>
+    </div> -->
     <!-- End #contact -->
 
     <footer>
@@ -246,17 +268,17 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github"
+                            <a href="https://github.com/yechubot" target="_blank"><i class="fa fa-github"
                                     aria-hidden="true"></i></a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
                                     aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
                                     aria-hidden="true"></i></a>
-                        </li>
+                        </li> -->
 
                     </ul>
                 </div>
