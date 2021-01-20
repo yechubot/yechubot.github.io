@@ -91,19 +91,19 @@ header li {
 
 header a {
     display: block;
-    color: #3498db;
+    color: #4fbeff;
     padding: 10px
 }
 
 header a:hover {
-    color: #217dbb;
+    color: #4fbeff;
     text-decoration: none;
     background: #eee;
     border-radius: 4px
 }
 
 header a:focus {
-    color: #3498db;
+    color: #4fbeff;
     text-decoration: none
 }
 
@@ -126,7 +126,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #ffd54f;
+    color: #4fbeff;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
