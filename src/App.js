@@ -16,16 +16,16 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: 'Garrett Love',
+      title: 'Yeeun Kim',
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Be Relentless',
-        subTitle: 'Projects the make a difference',
-        text: 'Checkout my projects below'
+        title: "Yeeun's Porfolio",
+        subTitle: 'Android app & web projects',
+        text: ''
       },
       about: {
         title: 'About Me'
@@ -42,14 +42,14 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Garrett Love</Navbar.Brand>
+            <Navbar.Brand>Yeeun Kim</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                {/* <Link className="nav-link" to="/contact">Contact</Link> */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>
